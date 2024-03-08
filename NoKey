@@ -36,6 +36,159 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 end)
+Section:NewButton("Nơi này có anh", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[  f       g       h    [qt]       f       g       h    [wy] 
+      f       g       h    [eu]       h       f       j    [ah] 
+   [0y]       h       f       d       s   [dqt]       p       f 
+      d       s   [dwy]       s       d       h   [oft]       y 
+      u       o    [ft]       g    [sh]       q       t    [fi] 
+   [gt]    [ah]       w       y    [fo]    [gy]    [sh]       e 
+  [shu]    [fo]    [ju]    [ah]       0   [ahr]    [fy]       d 
+   [sr]   [pdq]       t       p    [fi]       d    [st]    [dw] 
+   [fy]    [do]       f       d    [sy]   [is8]       t       i 
+      o       t   [u18]       p       o    [pq]    [st]    [di] 
+   [ft]    [fw]    [dy]    [do]   [oay]       p   [oae]   [psu] 
+  [pso]       u       p       p       u       o    [pq]    [st] 
+   [di]    [ft]    [fw]    [dy]    [do]   [oay]   [oa8]   [tow] 
+   [to]       w    [st]       a       q    [pi]       t       i 
+      t   [dwo]       u       a    [a0]    [sr]    [du]    [or] 
+      6       0    [sw]    [a0]    [pq]    [ft]       f       i 
+      t    [pw]    [dy]       d       o    [sy]       8   [tiw] 
+   [ti]       w    [tu]       w       p       w       o    [p4] 
+   [s8]    [dq]    [f8]       9   [of5]    [d9]       f   [odw] 
+   [a9]       0   [ua6]   [us0]   [usw]    [r0]       t    [r6] 
+   [t0]   [p5w]       0       o    [p4]    [s8]    [de]    [f8] 
+  [of5]    [d9]   [odr]    [a9]   [ua6]   [to0]       e   [to0] 
+      6       0   [isw]    [a0]       8   [ip4]       8       q 
+      8  [iad5]       9       w    [a9]   [ua3]   [us7]   [ud9] 
+      7    [to]       6       0    [sw]    [a0]   [tp4]    [f8] 
+   [of]    [oq]       8       9    [p5]    [d9]    [od]    [ow] 
+   [s9]   [is8]    [tw]       i       t    [ow]    [u8]       w 
+   [ft]    [gw]    [sh]       4       6       8    [fq]       8 
+   [g6]    [ah]       5       9    [fw]    [g9]    [sh]       6 
+   [h0]       f       w    [j0]  [ah30]    [h7]    [f9]       d 
+   [s7]   [pd4]       6    [p8]    [fq]    [d8]    [s6]    [d5] 
+   [s9]       d       w       g    [h9]   [of8]       w       t 
+      w       8       w    [ft]    [gw]    [sh]       4       8 
+      q    [fw]       e    [gt]   [ahu]       5       7       9 
+      q    [fw]       t    [go]    [sh]       6       0    [he] 
+   [fr]       t       u    [je]       0   [ah3]       7    [h0] 
+      w    [fe]    [d0]    [sr]       0   [pd4]       8       q 
+   [pw]    [fe]    [dt]    [su]       e    [d5]       7    [d9] 
+   [dq]    [fw]    [dt]    [so]       t    [s8]       t       i 
+      o       t   [u18]       s       d       f  [ipl4]       8 
+      q       8       9  [pdk5]       9       w    [d9]       0 
+ [pdj6]    [f0]    [he]  [afj0]    [kw]    [h3]    [s7]    [d0] 
+   [f7]  [ipl4]       8       e       8       9  [pdk5]       9 
+      w    [a9] [oakz8]    [sw]   [ost]       w   [kxt]    [sw] 
+   [dt]    [fw]   [ip4]       8       q       w       e       t 
+      u   [pd5]       7       9       q       w       t    [do] 
+  [pd6]       0    [fe]       r    [ht]       u   [afe]       0 
+      3       7    [s0]       w    [de]       0    [fr]       0 
+  [ip4]       8       q       w       e       t       u       e 
+  [pd5]       7       9       q       w       t    [ao]       t 
+  [oa8]    [sw]   [ost]       w       t       w    [xt]    [cw] 
+   [lv]       q       e       t       i    [xt]    [cr]  [kvqt] 
+      x       c    [lv]       w       r   [lvy]       o    [xy] 
+   [by]  [kvtu]    [kv]    [xo]    [zy]    [lr]   [jze]       t 
+      u    [jo]    [xu]       z    [lt]    [qe]       z       x 
+      z       x       z       l   [glt]       u       o       s 
+      g       s    [sf]       o  [os4q]    [os]    [os] [osqet] 
+   [os]   [s4q]       s  [oa5w]       9   [oaw]    [pe]    [ar] 
+      y    [5w]  [os6e]       0   [ose]       r   [ost]   [ose] 
+  [osu]    [6e]  [oa30]       7   [oa0]    [pw]    [ar]       y 
+      4    [o8]   [osq]   [osw]   [ose]    [ot]       u    [oe] 
+  [os5]   [os7]   [os9]   [osq]   [osw]    [ot]       o    [ot] 
+  [os8]    [ow]       t    [ow]   [os8]    [ow]       t    [ow] 
+  [ost]       o    [st]       o    [st]       o       5       $ 
+      4    [o6]    [f8]    [sq]    [se]       s    [st]       d 
+      5    [o9]    [fw]    [se]    [sr]       s    [sy]       d 
+   [f6]    [s0]    [se]    [sr]    [st]       d       u       o 
+   [f3]    [s7]    [s0]    [sw]    [sr]       d       y       o 
+ [s48q]    [s8]    [sq]    [sw]       e       f    [at]       a 
+ [a59w]    [s9]    [sw]    [se]       r       s    [oy]       o 
+ [s8wt]       0    [sw]    [st]   [sti]    [od]   [stu]       f 
+      g    [sh]       4       8       q    [fw]       e    [gt] 
+  [ahu]       5       7       9       q    [fw]       t    [go] 
+   [sh]       6       0    [he]    [fr]       t       u    [je] 
+      0   [ah3]       7    [h0]       w    [fe]    [d0]    [sr] 
+      0   [pd4]       8       q    [pw]    [fe]    [dt]    [su] 
+      e    [d5]       7    [s9]    [dq]       w    [gt]    [ho] 
+      t   [of8]       w    [od]       t   [ofw]       s    [s8] 
+      s    [sw]       s    [ft]    [gw]    [sh]       4       8 
+      q       w    [fe]       t    [gu]   [ahe]       5       7 
+      9       q    [fw]       t    [go]   [sht]       6       0 
+   [he]    [fr]       t       u    [je]       0   [ah3]       7 
+   [h0]       w    [fe]    [d0]    [sr]       0   [pd4]       8 
+      q    [pw]    [fe]    [dt]    [su]       e    [d5]       7 
+   [d9]    [dq]    [fw]    [dt]    [so]       t   [os8]       t 
+      i       o       t    [18]    [s1]    [d8]    [f5]       $ 
+  [ip4]       8       q       8       6       8   [pd5]       9 
+      w       9   [pd7]       0       6    [f0]    [he]   [af0] 
+      3    [s7]    [d0]    [f7]       8   [ip4]       8       q 
+      w       e       t       e   [pd5]       9       w    [a9] 
+  [oa8]    [sw]   [ost]       o    [uw]       t    [st]       o 
+  [suw]       t   [ds8]       o   [fu5]    [t$]   [ip4]       8 
+      q       8       e       8       q       8   [pd5]       9 
+      w       9       r       9    [dw]       9   [pd6]       0 
+   [fe]       0    [ht]       0   [afe]       0       3       7 
+   [s0]       7    [dw]       7    [f0]       7   [ip4]       8 
+      q       8       e       8       q       8   [pd5]       9 
+      w       9       r       9    [aw]       9   [oa8]       w 
+   [st]       w   [osu]       w       t       w       8       w 
+   [xt]       w    [zu]    [lw]    [jt]       w   [jqt]       x 
+  [hwy]       f       o       y   [veu]       x    [uo]   [z0r] 
+   [xw]    [zt]       l    [jw]   [jqt]       x       e       t 
+  [hwy]       f       w       r       y       o   [veu]       x 
+   [uo]       t   [z0r]       e       t       u       p       s 
+      f       h    [p4]       d       g       j       8       q 
+      w       e       t       u       5       7       9       q 
+   [kw]       t    [jo]   [sh6]       0       e       r  [uoft] 
+      u       e       0       3       7       0       w   [she] 
+      r    [f0]    [d4]       8    [fq]   [psw]       e       t 
+      u       p   [pd5]       7    [f9]   [odw]       w       t 
+   [sw]       9   [us8]       t       i       o       t   [u18] 
+      5  [osf8]    [g5]  [osfh]       4       4       8  [oafq] 
+      8    [g6] [oadh4]       5       5       9  [osfw]       9 
+   [g7] [osfh5]       6    [h6]    [f0]       e       0   [sj8] 
+      6  [oah3]  [oah7]    [f0]       d    [s5]       3   [pd4] 
+      4    [p8]    [fq]       d    [s6]       4   [od5]       s 
+   [d9]       w       g    [h9]  [of18]       8    [od]       0 
+      w   [oft]    [sw]   [s18]       s    [s8]       s    [f5] 
+   [g$]    [sh]       4       4       8    [fq]       8    [g6] 
+ [ah4q]    [5w]       w       y    [fo]       y    [gr]  [shwo] 
+   [6e]    [he]    [fu]       p       u    [jt]    [eo]  [ah30] 
+   [h7]    [f0]       d    [s5]       3  [pd4q]       4    [p8] 
+   [fq]    [d8]    [s6]    [4q]  [od5w]    [d5]    [d9]    [fw] 
+   [d9]    [s7]    [5w]  [os8t]       8       w    [ti]       w 
+      0       8    [tu]    [sw]    [dt]    [f8]       4  [ip4q] 
+      q       e       t       i   [p4q]       s [pda5w]       9 
+      w       y       o       s    [pd]    [5q]    [6w]       f 
+   [he] [oafp0]       a   [o30]    [s0]       r    [du]       r 
+      f       o       r [ips4q]       q       e       t       i 
+  [p4q]       s [pda5w]       y       o    [ay] [oad8t]    [s8] 
+      w  [osti]       w       0       8   [ftu]    [sw]    [dt] 
+   [f8]       4   [ip4]       8       q       w       e       t 
+      i       t    [pd]    [d5]       7       9       w    [fr] 
+      y   [dgo]       y  [pdf6]       0    [fe]       r   [hst] 
+      u  [oafe]       0    [o3]       7    [s0]       w   [due] 
+      0    [fr]       0  [ips4]       8       q       w    [ae] 
+      t    [su]       t    [pd]    [d5]       7    [s9]       w 
+   [ar]       y    [ai]       y  [oa8t]    [s8]       w  [osti] 
+      w       0       8    [tu]       w    [ft]       g       h 
+  [pqt]       f       g       h   [awy]       f       g       h 
+  [seu]       h       f       j       h   [a0y]       h       f 
+      d       s  [pdqt]       p       f       d       s   [dwy] 
+      f       d       f       d       s [is8wt]    [tu] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+end)
 Section:NewButton("Blue bird", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
